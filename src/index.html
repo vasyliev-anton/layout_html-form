@@ -12,6 +12,7 @@
       <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
         <fieldset class="container">
           <legend>Personal information</legend>
+
           <label class="fieldForm">
             Surname:
             <input
@@ -21,8 +22,9 @@
               required
             >
           </label>
+
           <label class="fieldForm">
-              Name:
+            Name:
             <input
               type="text"
               name="name"
@@ -30,6 +32,7 @@
               autocomplete="off"
             >
           </label>
+
           <label class="fieldForm">
             How old are You?
             <input
@@ -42,6 +45,7 @@
               required
             >
           </label>
+
           <label class="fieldForm">
             Full date of birth:
             <input
@@ -51,6 +55,7 @@
               required
             >
           </label>
+
           <label class="fieldForm">
             I accept the term of the agreement
             <input
@@ -61,10 +66,12 @@
             >
           </label>
         </fieldset>
+
         <fieldset class="container">
           <legend>
             Registration
           </legend>
+
           <label class="fieldForm">
             E-mail:
             <input
@@ -75,6 +82,7 @@
               required
             >
           </label>
+
           <label class="fieldForm">
             Password:
             <input
@@ -87,10 +95,12 @@
             >
           </label>
         </fieldset>
+
         <fieldset class="container">
           <legend>An interesting fact about you!</legend>
-          <label class="fieldForm">
-            <span class="spanCat">Do you love cats?</span>
+
+          <label class="fieldForm fieldForm-cat">
+            Do you love cats?
             <input
               type="radio"
               name="cats"
@@ -104,17 +114,21 @@
             >
             No
           </label>
-          <label class="fieldForm">
-          What is your favorite color?
+
+          <label class="fieldForm fieldForm-color">
+            What is your favorite color?
             <input type="color" name="color">
           </label>
-          <label class="fieldForm">
-          What time do you go to bed?
+
+          <label class="fieldForm fieldForm-bed">
+            What time do you go to bed?
             <input
               type="time" name="timeGoBed"
             >
           </label>
-          <label class="fieldForm">What are your favorite barnd of cars?
+
+          <label class="fieldForm fieldForm-cars">
+            What are your favorite barnd of cars?
             <select
               name="cars"
               id="cars"
@@ -125,8 +139,9 @@
               <option value="Lada">Lada</option>
             </select>
           </label>
-          <label class="fieldForm">
-          How do you rate our work?
+
+          <label class="fieldForm fieldForm-work">
+            How do you rate our work?
             <input
               type="range"
               value="0"
@@ -134,10 +149,12 @@
             >
           </label>
         </fieldset>
+
         <fieldset class="container">
           <legend>Additional info:</legend>
+
           <label class="fieldForm">
-          Comments:
+            Comments:
             <textarea
               name="comments"
               autocomplete="off"
@@ -146,7 +163,8 @@
             >
             </textarea>
           </label>
-          <label for="select" class="fieldForm">
+
+          <label class="fieldForm">
             Would you recommend us?
             <select name="select">
               <option value="Yes" selected>yes</option>
